@@ -12,3 +12,4 @@ libunp.a
 *.lc
 
 TAGS
+/config.log

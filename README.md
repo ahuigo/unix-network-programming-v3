@@ -22,7 +22,7 @@ Execute the following from the src/ directory:
 
     cd ../intro    # build and test a basic client program
     make daytimetcpcli && make daytimetcpsrv
-    sudo ./daytimetcpsrv
+    ./daytimetcpsrv
     ./daytimetcpcli 127.0.0.1
 
 If all that works, you're all set to start compiling individual programs.
@@ -61,7 +61,7 @@ MORE DETAILS
 
 NOTES
 -----
-
+- If move code (e.g. from MacOSX to linux). please remove all compiled files and configure.sh !!!!!!!!!
 - Many systems do not have correct function prototypes for the socket
   functions, and this can cause many warnings during compilation.
   For example, Solaris 2.5 omits the "const" from the 2nd argument
