@@ -1,4 +1,5 @@
 # It is used for the learning of "Unix Network Programming -- The Socket Network API"
+unp1 第3版
 
 QUICK AND DIRTY
 ===============
@@ -20,7 +21,8 @@ Execute the following from the src/ directory:
     make           # only if your system supports XTI
 
     cd ../intro    # build and test a basic client program
-    make daytimetcpcli
+    make daytimetcpcli && make daytimetcpsrv
+    sudo ./daytimetcpsrv
     ./daytimetcpcli 127.0.0.1
 
 If all that works, you're all set to start compiling individual programs.
